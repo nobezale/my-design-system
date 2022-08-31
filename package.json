@@ -1,0 +1,37 @@
+{
+  "name": "@nobezale/my-design-system",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/nobezale"},
+  "version": "1.0.0",
+  "description": "publish React components as an npm package",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nobezale/my-design-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nobezale/my-design-system/issues"
+  },
+  "homepage": "https://github.com/nobezale/my-design-system#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.4.0",
+    "@types/react": "^18.0.18",
+    "react": "^18.2.0",
+    "rollup": "^2.79.0",
+    "rollup-plugin-dts": "^4.2.2",
+    "typescript": "^4.8.2"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
