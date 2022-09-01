@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     // Default
-    "target": "es5", 
+    "importHelpers": true,
+    "target": "es6", 
     "esModuleInterop": true, 
     "forceConsistentCasingInFileNames": true,
     "strict": true, 
@@ -17,5 +18,5 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "emitDeclarationOnly": true,
-  }
+  },
 }

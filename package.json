@@ -1,8 +1,9 @@
 {
   "name": "@nobezale/my-design-system",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/nobezale"},
-  "version": "1.0.0",
+    "registry": "https://npm.pkg.github.com/nobezale"
+  },
+  "version": "1.0.1",
   "description": "publish React components as an npm package",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -26,6 +27,7 @@
     "react": "^18.2.0",
     "rollup": "^2.79.0",
     "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-postcss": "^4.0.2",
     "typescript": "^4.8.2"
   },
   "main": "dist/cjs/index.js",
@@ -33,5 +35,9 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "postcss": "^8.4.16",
+    "tslib": "^2.4.0"
+  }
 }
